@@ -20,4 +20,3 @@ SELECT
 FROM HumanResources.Department
     GROUP BY GroupName
     ORDER BY COUNT(*) DESC 
-

@@ -15,9 +15,7 @@ FROM HumanResources.Department
 
 DELETE FROM HumanResources.DepartmentCopy WHERE 1 = 1
 
-
 SELECT * FROM HumanResources.DepartmentCopy
-
 
 INSERT INTO HumanResources.DepartmentCopy(
     [Name],

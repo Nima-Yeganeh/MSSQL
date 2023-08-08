@@ -2,4 +2,3 @@ USE AdventureWorks2019
 GO
 
 SELECT GETDATE()
-
