@@ -11,13 +11,11 @@ FROM HumanResources.Department
 DELETE FROM HumanResources.Department
     WHERE DepartmentID = 7
 
-
 SELECT * FROM HumanResources.EmployeeDepartmentHistory
     WHERE DepartmentID = 7
 
 DELETE FROM HumanResources.EmployeeDepartmentHistory
     WHERE DepartmentID = 7
-
 
 -- The DELETE statement conflicted with the REFERENCE constraint 
 -- "FK_EmployeeDepartmentHistory_Department_DepartmentID". 
